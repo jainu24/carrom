@@ -1,0 +1,263 @@
+
+.carrom_box{
+
+    width: 9.7cm;
+    height: 9.7cm;
+    background-color: rgb(235, 191, 134);
+    margin-top: 2cm;
+    margin-left: 2cm;
+    border: 12px solid black;
+    border-radius: 2%;
+    position: relative;
+
+}
+
+.pocket_TL{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: gray ;
+    border-radius: 50% 50% 50% 50%;
+    border: 2px solid black;
+
+}
+
+.tl_line{
+
+    position: absolute;
+    width: 2px;
+    height: 2.5cm;
+    background-color: rgb(250, 3, 3) ;
+    border: 1px solid black;
+    rotate: 135deg;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.pocket_TR{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: gray ;
+    border-radius: 50% 50% 50% 50%;
+    margin-left: 335px;
+    border: 2px solid black;
+
+}
+
+.tr_line{
+
+    position: absolute;
+    width: 2px;
+    height: 2.5cm;
+    background-color: rgb(250, 3, 3) ;
+    border: 1px solid black;
+    rotate: 45deg;
+    margin-top: 20px;
+    margin-left: 290px;
+}
+
+.pocket_BL{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: gray ;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 335px;
+    border: 2px solid black;
+
+}
+
+.bl_line{
+
+    position: absolute;
+    width: 2px;
+    height: 2.5cm;
+    background-color: rgb(250, 3, 3) ;
+    border: 1px solid black;
+    rotate: 45deg;
+    margin-top: 248px;
+    margin-left: 70px;
+}
+
+.pocket_BR{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: gray ;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 335px;
+    margin-left: 335px;
+    border: 2px solid black;
+
+}
+
+.br_line{
+
+    position: absolute;
+    width: 2px;
+    height: 2.5cm;
+    background-color: rgb(250, 3, 3) ;
+    border: 1px solid black;
+    rotate: 135deg;
+    margin-top: 242px;
+    margin-left: 285px;
+}
+
+
+.circle{
+
+    position: absolute;
+    width: 2cm;
+    height: 2cm;
+    border: 8px solid red;
+    border-radius: 50%;
+    margin-top: 3.5cm;
+    margin-left: 3.7cm;
+    
+}
+
+.small_circle{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgb(245, 30, 30);
+    background-color: rgb(53, 2, 2);
+    border-radius: 50%;
+    margin-top: .7cm;
+    margin-left: .7cm;
+
+}
+
+.t{
+    position: absolute;
+    height: .6cm;
+    width: 6cm;
+    border: 2px solid black;
+    background-color: rgb(248, 190, 115) ;
+    border-radius: 50px;
+    margin-top: .8cm;
+    margin-left: 1.8cm;
+    
+}
+
+.l{
+    position: absolute;
+    height: 6cm;
+    width: .6cm;
+    border: 2px solid black;
+    background-color: rgb(248, 190, 115) ;
+    border-radius: 50px;
+    margin-top: 1.8cm;
+    margin-left: 1cm;
+}
+
+.r{
+    position: absolute;
+    height: 6cm;
+    width: .6cm;
+    border: 2px solid black;
+    background-color: rgb(248, 190, 115) ;
+    border-radius: 50px;
+    margin-top: 1.8cm;
+    margin-left: 8cm;
+}
+
+.b{
+    position: absolute;
+    height: .6cm;
+    width: 6cm;
+    border: 2px solid black;
+    background-color: rgb(248, 190, 115) ;
+    border-radius: 50px;
+    margin-top: 8.2cm;
+    margin-left: 1.8cm;
+}
+
+.top_circle_left{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.top_circle_right{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: 200px;
+}
+
+.buttom_circle_left{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: 200px;
+}
+
+.buttom_circle_right{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.right_circle_top{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.right_circle_buttom{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: -2px;
+}
+
+.left_circle_top{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: -2px;
+    margin-left: -2px;
+}
+
+.left_circle_buttom{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: rgb(230, 12, 12) ;
+    border-radius:50%;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: -2px;
+}
